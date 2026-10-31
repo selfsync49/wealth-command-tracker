@@ -50,8 +50,8 @@ app.get('/health', (req, res) => {
 
 // Connect database then start Express server
 db.connect().then(() => {
-  app.listen(PORT, () => {
-    console.log(`🚀 Wealth Command Backend running on http://localhost:${PORT}`);
+  app.listen(PORT, '0.0.0.0', () => {
+    console.log(`🚀 Wealth Command Backend running on http://0.0.0.0:${PORT}`);
     console.log(`📡 Health endpoint: http://localhost:${PORT}/health`);
   });
 });
