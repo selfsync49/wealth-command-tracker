@@ -1,0 +1,32 @@
+{
+  "user": {
+    "id": "usr-default-1",
+    "name": "",
+    "email": "",
+    "phone": "",
+    "profileCompleted": false,
+    "profileImage": "",
+    "googleId": "",
+    "income": 0,
+    "savingsTarget": 0,
+    "alreadySpentThisMonth": 0,
+    "fixedExpenses": [],
+    "categoryAllocations": {
+      "housing": 0,
+      "essentials": 0,
+      "lifestyle": 0
+    },
+    "goals": []
+  },
+  "transactions": [],
+  "rules": [
+    { "id": "rule-1", "pattern": "zomato", "category": "lifestyle", "resolvedMerchant": "Zomato" },
+    { "id": "rule-2", "pattern": "swiggy", "category": "lifestyle", "resolvedMerchant": "Swiggy" },
+    { "id": "rule-3", "pattern": "uber", "category": "lifestyle", "resolvedMerchant": "Uber" },
+    { "id": "rule-4", "pattern": "ola", "category": "lifestyle", "resolvedMerchant": "Ola" },
+    { "id": "rule-5", "pattern": "amazon", "category": "essentials", "resolvedMerchant": "Amazon" },
+    { "id": "rule-6", "pattern": "canteen", "category": "lifestyle", "resolvedMerchant": "The Bombay Canteen" },
+    { "id": "rule-7", "pattern": "rent|landlord|flat rent", "category": "housing", "resolvedMerchant": "House Rent" },
+    { "id": "rule-8", "pattern": "emi|loan|bajaj|hdfc loan", "category": "emi", "resolvedMerchant": "Loan EMI" }
+  ]
+}
